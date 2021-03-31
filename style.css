@@ -1,0 +1,19 @@
+body{
+    background-color: #f4a261;
+}
+
+.container{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: #e9c46a;
+}
+
+img{
+    max-width: 40%;
+    padding-left: 10%;
+}
+
+.isRight{
+    border-left: 3px solid #e76f51;
+    padding-left: 10%;
+}
