@@ -17,3 +17,29 @@ img{
     border-left: 3px solid #e76f51;
     padding-left: 10%;
 }
+
+.fa{
+    padding-right: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: #2a9d8f;
+}
+a:hover{
+    color: #264653;
+}
+
+@media(max-width: 768px){
+    .isRight{
+        border-left: none;
+    }
+    .topBorder{
+        border-top: 3px solid #e76f51;
+        padding-top: 7%;
+    }
+    .bottomBorder{
+        padding-bottom: 7%;
+    }
+  
+}
