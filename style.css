@@ -1,15 +1,26 @@
-body{
-    background-color: #f4a261;
+html{
+    overflow-x: hidden;
 }
 
-.container{
+body{
+    background-color: #f4a261;
+    overflow-x: hidden;
+}
+
+
+.isFooter{
     border: 1px solid black;
     border-radius: 0.5rem;
     background-color: #e9c46a;
 }
 
-img{
-    max-width: 40%;
+
+.leftRow{
+    padding-left: 5rem;
+}
+
+.Image{
+    width: 40%;
     padding-left: 10%;
 }
 
@@ -18,21 +29,52 @@ img{
     padding-left: 10%;
 }
 
+.getIn{
+    text-align: center;
+}
+
+.socialMedia{
+    margin-bottom: 2rem;
+}
+
 .fa{
     padding-right: 10%;
 }
 
 .fa-telegram{
-    padding-right: 8.7%;
+    padding-right: 9%;
 }
 
-a{
+.link{
     text-decoration: none;
     color: #2a9d8f;
 }
-a:hover{
+.link:hover{
     color: #264653;
+    text-decoration: none;
+
 }
+
+@media only screen and (max-width: 640px) {
+    .second {
+        border: none;
+        border-top: 2px dotted lightgrey;
+        margin-top: 25px
+    }
+
+    .third {
+        border-top: 2px dotted lightgrey;
+        margin-top: 25px
+    }
+
+    .icon {
+        margin-top: 20px;
+        top: 0
+    }
+}
+
+
+
 
 @media only screen and (max-width: 480px) {
 
@@ -76,15 +118,22 @@ a:hover{
 
     .leftRow{
         padding-left: 3rem;
+        display: inline;
     }
 
     .link{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .fa-telegram{
         padding-right: 7.4%;
     }
+
+    .Image{
+        width: 70%;
+        height: 40%;
+    }
+  
     
 
     
@@ -146,6 +195,13 @@ a:hover{
     .fa-telegram{
         padding-right: 7.4%;
     }
+    #rakesh{
+        display: none;
+    }
+    .Image{
+        width: 60%;
+        height: 40%;
+    }
     
 
     
@@ -159,12 +215,16 @@ a:hover{
     .isRight{
         border-left: none;
     }
-    .topBorder{
+    /* .topBorder{
         border-top: 3px solid #e9ecef;
         padding-top: 7%;
-    }
+    } */
+    
     .bottomBorder{
         padding-bottom: 7%;
    
-}
+    }
+    #rakesh{
+        display: none;
+    }
 }
